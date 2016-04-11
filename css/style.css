@@ -1,0 +1,116 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: #B4D8E7;
+}
+
+.menubar {
+	position:relative;
+	top: 20px;
+	height: 10px;
+	color: white;
+}
+
+.menuItem {
+	position: relative;
+	background: gray;
+	width:100px;
+	border: solid black;
+	border-width: 2px;
+	font-weight: bold;
+	font-size: 20px;
+	height: 30px;
+	margin: 10px;
+}
+
+.mainBody {
+	position: relative;
+	top: 80px;
+	height: 1000px;
+	margin-bottom: 10px;
+}
+
+.images {
+	position: absolute;
+	right: 50%;
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 400px;
+	height: 350px;
+}
+
+.content {
+	position: absolute;
+	color: white;
+	margin-top: 20px;
+	margin-left: 25px;
+	left: 50%;
+	margin-left: 25px;
+	margin-right:25px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.table {
+	position: absolute;
+	right: 50%;
+	bottom: 50%;
+	left: 0;
+	top: 0;
+	background: #8B4513;
+	border: solid #000;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+}
+
+.chair {
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+	left: 50%;
+	top: 0;
+	background: #8B4513;
+	border: solid #000;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+}
+
+.sofa {
+	position: absolute;
+	right: 50%;
+	bottom: 0;
+	left: 0;
+	top: 50%;
+	background: #8B4513;
+	border: solid #000;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+}
+
+.diningset {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 50%;
+	top: 50%;
+	background: #8B4513;
+	border: solid #000;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+}
+
+.footer {
+	position: absolute;
+	right: 40%;
+	left: 40%;
+	top: 110%;
+	margin-bottom: 50px;
+}
+
+.footer2 {
+	position: absolute;
+	right: 40%;
+	left: 40%;
+	top: 85%;
+	margin-bottom: 50px;
+}
